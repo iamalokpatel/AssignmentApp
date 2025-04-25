@@ -1,0 +1,269 @@
+.SideNavigation {
+  background-color: #11455d;
+  color: white;
+  width: 15.5rem;
+}
+
+.navigationBar {
+  border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.Footer {
+  border-top: 1px solid rgb(238, 238, 238);
+}
+
+.mainContent div div {
+  height: 206px;
+}
+
+.bottomDiv {
+  height: 206px;
+  margin-top: 12px;
+}
+.finances .onboard,
+.welbeing {
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 10px;
+}
+.feedBack .Insights,
+.prospectLeads {
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+}
+.feedBack .Insights .salesGrowth {
+  height: 60px;
+  border-radius: 1px;
+  border-bottom: 1px solid rgb(231, 224, 224);
+  margin-top: -10px;
+}
+.feedBack h2 {
+  border: none;
+  background-color: white;
+}
+.account {
+  border: 1px solid rgb(235, 235, 235);
+  padding: 8px;
+  border-radius: 8px;
+}
+.account1 {
+  width: 321px;
+  height: 350px;
+  margin: 0.8rem;
+}
+
+.account .process {
+  border-bottom: 1px solid rgb(235, 235, 235);
+  height: 145px;
+}
+.account .steps {
+  height: 245px;
+  width: 320px;
+}
+
+.steps .completed {
+  height: 126px;
+  margin-top: 12px;
+  background-color: #f6f7fb;
+}
+
+.steps .remaining {
+  height: 100px;
+  margin-top: 8px;
+  background-color: #f6f7fb;
+}
+
+.leadsCards div,
+h2 {
+  display: flex;
+  background-color: #f6f7fb;
+  border: 1px solid rgb(236, 236, 236);
+  height: 38px !important;
+  margin: 10px 25px 10px 25px;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+}
+.leadsCards h2 {
+  background-color: white;
+  border: none;
+}
+.leadsCards div img {
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.Insights .salesGrowth {
+  height: 65px;
+  margin: 10px 20px 10px 0;
+  border-radius: 8px;
+}
+.Performer img {
+  width: 40px;
+  margin-left: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  align-items: center;
+}
+.feedBacks {
+  height: 80px !important;
+  width: 360px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background-color: #f6f7fb;
+}
+.feedBacks h2 {
+  margin-top: -5px;
+  margin-left: 16px;
+  background-color: #f6f7fb;
+  font-weight: 600;
+}
+.feedBacks p {
+  margin-top: -8px;
+}
+
+.innerCircle {
+  width: 80px;
+  height: 80px !important;
+  border-radius: 50%;
+  margin-bottom: 120px;
+  margin: 15px 20px 30px 20px;
+  border-top: 10px solid #279dd4;
+  border-bottom: 10px solid #279dd4;
+  border-right: 10px solid #279dd4;
+  border-left: 1px solid rgb(255, 255, 255);
+  transform: rotate(240deg);
+  padding: 15px 10px 10px 20px;
+}
+.outerCircle {
+  display: flex;
+  width: 80px;
+  height: 80px !important;
+  border-radius: 50%;
+  margin: -10px 10px 40px 130px;
+  transform: rotate(123deg);
+}
+.process h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  margin-left: -6px;
+}
+
+.onboard .topOnboard {
+  height: 70px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 8px;
+}
+.onboard .middleOnboard {
+  height: 15px;
+  margin: 0 0 10px 0;
+}
+
+.onboard .BottomOnboard {
+  height: 82px;
+  margin-top: 15px;
+}
+
+.Images ul li img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  display: inline;
+}
+
+.Images ul li p {
+  margin-top: 20px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  display: inline;
+  background-color: rgb(240, 234, 234);
+  padding: 4px 3px 0 0;
+}
+
+.Performer p {
+  font-size: small;
+  height: 16px;
+  width: 90px;
+  margin: 2.5px 0 0 13px;
+  background-color: #d5f2ff;
+  color: #279dd4;
+  border: 1px solid green;
+  border-radius: 16px;
+  padding-bottom: 4px !important;
+}
+
+.Financial {
+  height: 92px !important;
+  width: 400px;
+  margin: 10px;
+  border-bottom: 1px solid rgb(234, 234, 234);
+}
+.Targets {
+  height: 82px !important;
+  width: 400px;
+  margin: 10px;
+  overflow: none;
+}
+
+.TargetsFirst {
+  background-color: #f6f7fb;
+  border-radius: 8px;
+}
+.TargetsSecond {
+  background-color: #f6f7fb;
+  border-radius: 8px;
+}
+.SuccaseGraph {
+  border: 1px solid green;
+  border-radius: 14px;
+  padding: 1px 4px 6px 3px;
+}
+
+.QuestionCard {
+  border-top: 1px solid rgb(228, 226, 226);
+  padding-top: 6px;
+}
+
+.FooterAssistant {
+  height: 192px;
+  width: 958px;
+  margin: 105px 0 0;
+  background-color: #f6f7fb;
+}
+.Links a {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 0.488);
+  font-size: small;
+}
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.HomeLink {
+  margin-top: 2rem;
+  background-color: #ffffff1a;
+  width: 200px;
+  height: 35px;
+  color: #279dd4 !important;
+  margin-left: -6px !important;
+  padding: 8px 0 0 20px;
+  border-radius: 8px;
+}
+.PendingQs {
+  height: 20px;
+  width: 20px;
+  color: #11455d;
+  background-color: #9caec0;
+  border-radius: 50%;
+  margin-left: 20px;
+  padding-left: 6px;
+}
