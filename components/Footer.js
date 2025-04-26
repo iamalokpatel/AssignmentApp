@@ -1,5 +1,6 @@
 "use client";
 import "../app/page.css";
+import Image from "next/image";
 import { useState } from "react";
 
 export default function Footer() {
@@ -31,7 +32,7 @@ export default function Footer() {
           </div>
           <div className="QuestionCard">
             <div className="flex">
-              <img
+              <Image
                 className="h-9 w-9 ml-4 rounded-full"
                 alt="Phoenix"
                 src="/phoenix.png"
@@ -48,7 +49,7 @@ export default function Footer() {
           </div>
           <div className="QuestionCard">
             <div className="flex">
-              <img
+              <Image
                 className="h-9 w-9 ml-4 rounded-full"
                 alt="Koray"
                 src="/koray.png"
@@ -66,7 +67,7 @@ export default function Footer() {
         <div className="col-start-2 row-start-1 FooterAssistant">
           <div>
             <div className="w-1/2 mx-auto">
-              <img
+              <Image
                 alt="Symble"
                 className="h-20 w-20 w-1/2 mx-auto p-4 mix-blend-multiply"
                 src="https://camo.githubusercontent.com/5ea75cfad8af29e66d459876f849886e63854c85e172f241827bb169b7a5f77e/68747470733a2f2f73747265616d61626c652e636f6d2f7374617469632f696d672f6c6f676f2e706e67"
