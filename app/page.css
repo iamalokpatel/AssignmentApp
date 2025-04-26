@@ -13,11 +13,11 @@
 }
 
 .mainContent div div {
-  height: 206px;
+  height: 12.875rem;
 }
 
 .bottomDiv {
-  height: 206px;
+  height: 12.875rem;
   margin-top: 12px;
 }
 .finances .onboard,
@@ -41,34 +41,34 @@
   background-color: white;
 }
 .account {
+  height: 26.5rem;
+  width: 22.75rem;
   border: 1px solid rgb(235, 235, 235);
   padding: 8px;
   border-radius: 8px;
 }
-.account1 {
-  width: 321px;
-  height: 350px;
-  margin: 0.8rem;
-}
-
 .account .process {
   border-bottom: 1px solid rgb(235, 235, 235);
-  height: 145px;
+  height: 9.063rem;
 }
 .account .steps {
-  height: 245px;
-  width: 320px;
+  height: 15.313rem;
+  width: 20rem;
 }
 
 .steps .completed {
-  height: 126px;
+  height: 7.875rem;
   margin-top: 12px;
+  margin-left: 1.2rem;
+  border-radius: 10px;
   background-color: #f6f7fb;
 }
 
 .steps .remaining {
-  height: 100px;
+  height: 6.25rem;
   margin-top: 8px;
+  margin-left: 1.2rem;
+  border-radius: 10px;
   background-color: #f6f7fb;
 }
 
@@ -77,7 +77,7 @@ h2 {
   display: flex;
   background-color: #f6f7fb;
   border: 1px solid rgb(236, 236, 236);
-  height: 38px !important;
+  height: 2.375rem !important;
   margin: 10px 25px 10px 25px;
   border-radius: 8px;
   align-items: center;
@@ -255,7 +255,7 @@ a:hover {
   height: 35px;
   color: #279dd4 !important;
   margin-left: -6px !important;
-  padding: 8px 0 0 20px;
+  padding: 8px 0 0 16px;
   border-radius: 8px;
 }
 .PendingQs {
@@ -266,4 +266,40 @@ a:hover {
   border-radius: 50%;
   margin-left: 20px;
   padding-left: 6px;
+}
+
+/* Responsive.css */
+
+@media screen and (max-width: 868px) {
+  .SideNavigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #11455d;
+    z-index: 1;
+    transition: transform 0.3s ease-in-out;
+  }
+  .Main {
+    grid-column: 1 / -1;
+  }
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .Footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .finances,
+  .feedBack,
+  .account,
+  .Footer,
+  .navigationBar {
+    grid-column: 1 / -1;
+  }
 }
