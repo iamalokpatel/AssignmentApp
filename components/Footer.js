@@ -69,7 +69,7 @@ export default function Footer() {
               <img
                 alt="Symble"
                 className="h-20 w-20 w-1/2 mx-auto p-4 mix-blend-multiply"
-                src="https://camo.githubusercontent.com/5ea75cfad8af29e66d459876f849886e63854c85e172f241827bb169b7a5f77e/68747470733a2f2f73747265616d61626c652e636f6d2f7374617469632f696d672f6c6f676f2e706e67"
+                src="/symble.png"
               />
               <h1 className="w-3/4 mx-auto ml-26 text-xl font-bold">
                 Welcome To The AI Chat Assistant
