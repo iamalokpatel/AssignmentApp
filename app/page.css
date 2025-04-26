@@ -87,24 +87,11 @@ h2 {
   background-color: white;
   border: none;
 }
-.leadsCards div img {
-  width: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 50%;
-}
 
 .Insights .salesGrowth {
   height: 65px;
   margin: 10px 20px 10px 0;
   border-radius: 8px;
-}
-.Performer img {
-  width: 40px;
-  margin-left: 40px;
-  margin-right: 10px;
-  border-radius: 50%;
-  align-items: center;
 }
 .feedBacks {
   height: 80px !important;
@@ -168,23 +155,13 @@ h2 {
   margin-top: 15px;
 }
 
-.Images ul li img {
+.Images ul li p {
   width: 20px;
   height: 20px;
-  border-radius: 50%;
   display: flex;
   display: inline;
-}
-
-.Images ul li p {
-  margin-top: 20px;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  display: flex;
-  display: inline;
-  background-color: rgb(240, 234, 234);
-  padding: 4px 3px 0 0;
+  background-color: rgb(240, 240, 240);
+  padding: 3px 3px 3px 0;
 }
 
 .Performer p {

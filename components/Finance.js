@@ -19,34 +19,42 @@ export default function Finance() {
                 <ul className="flex ml-38">
                   <li>
                     <img
+                      width={18}
+                      height={18}
                       alt="Wrap1"
                       src="/wrap1.png"
-                      className="w-8 h-8 object-cover rounded"
+                      className=" mb-1 object-cover flex inline rounded-full"
                     />
                   </li>
                   <li>
                     <img
+                      width={18}
+                      height={18}
                       alt="Wrap2"
                       src="/wrap2.png"
-                      className="w-8 h-8 object-cover rounded"
+                      className="mb-1 object-cover flex inline rounded-full"
                     />
                   </li>
                   <li>
                     <img
+                      width={18}
+                      height={18}
                       alt="Wrap3"
                       src="/wrap3.png"
-                      className="w-8 h-8 object-cover rounded"
+                      className="mb-1 object-cover flex inline rounded-full"
                     />
                   </li>
                   <li>
                     <img
+                      width={18}
+                      height={18}
                       alt="Wrap4"
                       src="/wrap4.png"
-                      className="w-8 h-8 object-cover rounded"
+                      className="mb-1  object-cover flex inline rounded-full"
                     />
                   </li>
                   <li>
-                    <p className="!mt-6">+7</p>
+                    <p className="rounded-full text-xs">+7</p>
                   </li>
                 </ul>
               </div>

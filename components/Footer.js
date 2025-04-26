@@ -68,17 +68,19 @@ export default function Footer() {
             <div className="w-1/2 mx-auto">
               <img
                 alt="Symble"
-                className="h-20 w-20 w-1/2 mx-auto p-4 mix-blend-multiply"
+                width={70}
+                height={70}
+                className="mt-6 mx-auto p-4 mix-blend-multiply"
                 src="/symble.png"
               />
-              <h1 className="w-3/4 mx-auto ml-26 text-xl font-bold">
+              <h1 className="mx-auto flex justify-center w-66 font-bold">
                 Welcome To The AI Chat Assistant
               </h1>
             </div>
             <div className="w-3/5 mx-auto border rounded h-8 mt-2 flex items-center">
               <input
                 type="text"
-                className="p-1 rounded-md w-11/12 mx-auto ml-2 outline-none"
+                className="p-1 rounded-md  mx-auto ml-2 outline-none"
                 placeholder="Enter text"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
